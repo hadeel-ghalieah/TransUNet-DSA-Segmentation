@@ -12,9 +12,13 @@ This repository implements **TransUNet integrated with Directional/Spatial Atten
 ## 📌 Project Overview
 
 * **Domain:** Computer Vision / Medical Image Analysis
-* **Task:** Semantic Segmentation
-* **Core Architecture:** TransUNet + DSA (Directional / Spatial Attention)
+* **Task:** 3D Brain Tumor Segmentation
+* **Dataset:** BraTS2020
+* **Baseline:** TransUNet
+* **Proposed Method:** TransUNet + Directional/Spatial Attention (DSA)
 * **Framework:** PyTorch
+* **Programming Language:** Python
+* **Hardware Acceleration:** CUDA / GPU
 
 ---
 
