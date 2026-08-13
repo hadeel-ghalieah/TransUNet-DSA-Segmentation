@@ -45,7 +45,6 @@ Decoder
 
 ---
 
-
 ## 📊 Experimental Results & Loss Comparison
 
 The incorporation of the DSA mechanism accelerates convergence and lowers training/validation loss across training steps compared to standard TransUNet.
