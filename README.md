@@ -22,6 +22,30 @@ This repository implements **TransUNet integrated with Directional/Spatial Atten
 
 ---
 
+## 🧠 Methodology
+
+The proposed approach extends the **TransUNet** architecture by integrating a **Directional/Spatial Attention (DSA)** mechanism into the segmentation pipeline.
+
+### Architecture
+
+```text
+3D MRI Volume
+      ↓
+Preprocessing
+      ↓
+TransUNet Encoder
+      ↓
+Transformer-based Feature Extraction
+      ↓
+Directional/Spatial Attention (DSA)
+      ↓
+Decoder
+      ↓
+3D Tumor Segmentation
+
+---
+
+
 ## 📊 Experimental Results & Loss Comparison
 
 The incorporation of the DSA mechanism accelerates convergence and lowers training/validation loss across training steps compared to standard TransUNet.
